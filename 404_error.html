@@ -85,7 +85,7 @@
           clearInterval(countFunction)
           counter.innerHTML = 'Redirecting . . .'
           setTimeout(() => {
-            window.location.reload(window.location.host);
+            window.location.reload(window.location.hostname);
           }, 1000);
         } else {
           counter.innerHTML = countNumber
